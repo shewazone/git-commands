@@ -53,4 +53,4 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 *git mv filename.ext newname.ext
 
 17) remove file completely from repo
-*git rm file.name (its deleted but need to commit for make changes done)
+*git rm file.name (its deleted but need to commit for changes done)
