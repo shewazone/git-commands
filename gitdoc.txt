@@ -24,6 +24,9 @@ git commit -m "commit message" (commit changes with single line message)
 #check which files git has been tracking
 *git ls-files
 
+#remove specific file from working directory
+*rm filename.ext (git bash command)
+
 
 
 
