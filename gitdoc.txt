@@ -27,6 +27,10 @@ git commit -m "commit message" (commit changes with single line message)
 8)remove specific file from working directory
 *rm filename.ext (git bash command)
 
+9)remove unwanted changes from a file
+*git checkout --filename.ext
 
+10)check available help options git 
+* git help log
 
 
