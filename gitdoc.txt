@@ -15,6 +15,9 @@ git add . (now files belongs to staging area)
 
 git commit -m "commit message" (commit changes with single line message)
 
+#check git commit detail with author date & time
+*git log
+
 
 
 
