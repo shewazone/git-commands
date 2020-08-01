@@ -33,4 +33,22 @@ git commit -m "commit message" (commit changes with single line message)
 10)check available help options git 
 * git help log
 
+11) git commands with help options 
+*git log --oneline --graph --decorate --all 
+(--online will provide lots of information in oneline instead of multiline. --graph which will provide asteric based graph denoting our branching hierarchy. --decorate will tell us which commits are part of which branches. --all will provide the history for all the branches that are available in the repo)
+
+12) git aliasing. its basically make shorten of some existing git commands. will use above command as history by aliasing
+*git config --global alias.hist "log --oneline --graph --decorate --all" (log --oneline --graph --decorate --all shorten of this commands will be hist)
+
+13)check available config list
+*git config --glbal --list
+
+14) git alias commands
+*git aliasname (ex: git hist)
+
+15) check history for a specific file
+git hist -- filename (here hist is an alias and specify file name to check that particular file history)
+
+16) rename file name in git
+*git mv filename.ext newname.ext
 
