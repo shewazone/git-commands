@@ -1,30 +1,30 @@
-#initialize git 
+1)initialize git 
 *git init (it will create a empty .git repo. it is basically main git repo)
 
-#remove local git repo
+2)remove local git repo
 *rm -rf .git
 
-#add specific file
+3)add specific file
 *git add <file name>
 
-#add all file from current folder. (.) dot means current folder
+4)add all file from current folder. (.) dot means current folder
 git add . (now files belongs to staging area)
 
-#commit changes. 
+5)commit changes. 
 *git commit (this command will open integreted text editor with git & it will allow to write multiline messages)
 
 git commit -m "commit message" (commit changes with single line message)
 
-#check git commit detail with author date & time
+6)check git commit detail with author date & time
 *git log
 
-#check difference between commits
+7)check difference between commits
 *git show
 
-#check which files git has been tracking
+7)check which files git has been tracking
 *git ls-files
 
-#remove specific file from working directory
+8)remove specific file from working directory
 *rm filename.ext (git bash command)
 
 
