@@ -18,6 +18,12 @@ git commit -m "commit message" (commit changes with single line message)
 #check git commit detail with author date & time
 *git log
 
+#check difference between commits
+*git show
+
+#check which files git has been tracking
+*git ls-files
+
 
 
 
