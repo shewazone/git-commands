@@ -1,0 +1,5 @@
+#initialize git 
+git init (it will create a empty .git repo. it is basically main git repo)
+
+#remove local git repo
+rm -rf .git
