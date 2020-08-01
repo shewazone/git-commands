@@ -54,3 +54,6 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 
 17) remove file completely from repo
 *git rm file.name (its deleted but need to commit for changes done)
+
+18) if delete file from out side of git then git will sees the file has been deleted and new named file is untracked. to delete deleted file use below command
+*git add -u (it will delete the file) 
