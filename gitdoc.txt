@@ -57,3 +57,8 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 
 18) if delete file from out side of git then git will sees the file has been deleted and new named file is untracked. to delete deleted file use below command
 *git add -u (it will delete the file) 
+
+19) if want to addition of file and delete of file then we can use below command. Git will properly add new named file and delete the right file in git index.
+*git add -A
+
+20) ignore file to be tracked create a .gitignore  file and specify file name or *.ext. per line for per specification
