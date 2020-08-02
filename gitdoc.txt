@@ -107,3 +107,6 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 
 33) delete git tag 
 *git tag -d tagName
+
+34) git tag with annotated name and message
+*git tag -a tagName -m tagMessage
