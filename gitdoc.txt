@@ -18,7 +18,7 @@ git commit -m "commit message" (commit changes with single line message)
 6)check git commit detail with author date & time
 *git log
 
-7)check difference between commits
+7)to check what new things added use below command
 *git show
 
 7)check which files git has been tracking
