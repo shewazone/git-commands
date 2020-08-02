@@ -74,6 +74,8 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 
 ****git head points to last commit of current branch****
 
+###################ADVANCE TOPIC###################
+
 24) move changes to a newly created branch & switch on that branch as well. couple of things will happen with below command
 *git checkout -b branchName (-b for branch, so this command will create & switch to new branch, if there is unstaged file then it will be move there)
 
@@ -96,3 +98,9 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 *git branch -a (it will show asterick point for active branch)
 
 ****merge conflict, use git mergetool command to open different version of files and save which one to keep then commit changes****
+
+31) label/tag adding without associated text
+*git tag tagName
+
+32) check tag list
+*git tag --list
