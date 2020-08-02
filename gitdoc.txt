@@ -122,3 +122,36 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 
 38) to get back progress work use git stash pop command it will get back changes and remove stash that was in list.
 *git stash pop (apply stash and remove from list)
+
+39) soft resetting reset the HEAD pointing go specific id and it will keep changes files on unstagging area
+*git reset gitId --soft
+*git reset gitId --mixed (mixed is default, this will remove pending changes and move HEAD pointing to specific commit id)
+*git reset gitId --hard (will remove pending changes and move HEAD pointing)
+
+40) after resetting log will be reduce and to check out all logs that was happened on a branch hit below command
+*git reflog 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
