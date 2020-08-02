@@ -68,3 +68,6 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 
 22) to check differences between two commits 
 *git diff commitId commit
+
+23) remove commit from branch by id
+*git revert --strategy resolve commitID (this command will remove commit from branch)
