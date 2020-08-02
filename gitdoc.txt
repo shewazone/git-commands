@@ -73,3 +73,7 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 *git revert --strategy resolve commitID (this command will remove commit from branch)
 
 ****git head points to last commit of current branch****
+
+24) move changes to a newly created branch & switch on that branch as well. couple of things will happen with below command
+*git checkout -b branchName (-b for branch, so this command will create & switch to new branch, if there is unstaged file then it will be move there)
+
