@@ -28,7 +28,7 @@ git commit -m "commit message" (commit changes with single line message)
 *rm filename.ext (git bash command)
 
 9)remove unwanted changes from a file
-*git checkout -- filename.ext
+*git checkout --filename.ext
 
 10)check available help options git 
 * git help log
@@ -67,4 +67,4 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 *git diff (git difftool will open p4merge tool its really easy to understand)
 
 22) to check differences between two commits 
-*git diff commitId commitId
+*git diff commitId commit
