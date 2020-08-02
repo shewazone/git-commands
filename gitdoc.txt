@@ -119,3 +119,6 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 
 37) to check availabel stash
 *git stash list
+
+38) to get back progress work use git stash pop command it will get back changes and remove stash that was in list.
+*git stash pop (apply stash and remove from list)
