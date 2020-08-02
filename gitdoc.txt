@@ -113,3 +113,9 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 
 35) git tag detail
 *git show tagName
+
+36) git stash for saving work in progress, it is useful when we want to keep current changes and meanwhile want to work on some other files or branches. later we can check this changes and act accordingly.
+*git stash
+
+37) to check availabel stash
+*git stash list
