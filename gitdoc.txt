@@ -77,3 +77,12 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 24) move changes to a newly created branch & switch on that branch as well. couple of things will happen with below command
 *git checkout -b branchName (-b for branch, so this command will create & switch to new branch, if there is unstaged file then it will be move there)
 
+25) switch between branches 
+*git checkout branchName
+
+26) merge branch with master. switch to master branch first then hit below command
+*git merge branchName (it will so fast forward merging)
+
+27) check differences between branch
+*git diff branchA branchB
+
