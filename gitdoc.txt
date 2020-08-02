@@ -131,6 +131,9 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 40) after resetting log will be reduce and to check out all logs that was happened on a branch hit below command
 *git reflog 
 
+41) check remote origin url
+*git remove -v
+
 
 
 
