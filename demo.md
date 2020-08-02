@@ -1,1 +1,1 @@
-some text & switched to another branch
+make some changes on the same line
