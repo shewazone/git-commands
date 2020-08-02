@@ -91,3 +91,8 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 
 29) delete a branch 
 *git branch -d branchName (it will remove branch completely)
+
+30) check currently active branch
+*git branch -a (it will show asterick point for active branch)
+
+****merge conflict, use git mergetool command to open different version of files and save which one to keep then commit changes****
