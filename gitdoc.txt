@@ -62,3 +62,9 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 *git add -A
 
 20) ignore file to be tracked create a .gitignore  file and specify file name or *.ext. per line for per specification
+
+21) to check differences between working directory and HEAD (last commit) 
+*git diff (git difftool will open p4merge tool its really easy to understand)
+
+22) to check differences between two commits 
+*git diff commitId commitId
