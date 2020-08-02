@@ -86,3 +86,8 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 27) check differences between branch
 *git diff branchA branchB
 
+28) check available branches
+*git branch
+
+29) delete a branch 
+*git branch -d branchName (it will remove branch completely)
