@@ -104,3 +104,6 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 
 32) check tag list
 *git tag --list
+
+33) delete git tag 
+*git tag -d tagName
