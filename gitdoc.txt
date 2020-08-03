@@ -171,6 +171,9 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 53) delete remote branch from local
 *git push origin:branchName (this command will delete remote branch)
 
+54) rebase is using to stay ahead local branch than remote
+*git pull --rebase  
+
 
 
 
