@@ -156,6 +156,12 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 48) push changes with tracking relationships so that dont have to mention origin name every time
 *git push -u origin master (-u parameter is for tracking relation between local and remote branch. with the help of -u parameter dont have to specify brach name it will automatically update correspondent branch)
 
+49) check git reference branch
+*git branch -a
+
+50) after delete branch from remote and local, in local there may contain branch reference to remove it use below command
+*git fetch -p (-p parameter to prone dead branches. it will remove dead branches)
+
 
 
 
