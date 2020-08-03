@@ -1,3 +1,3 @@
 Read gitdoc.txt file
-changes before rebase
+i dont like this
 >>>>>> the end <<<<<<<
