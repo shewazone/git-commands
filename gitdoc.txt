@@ -153,6 +153,9 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 47) to check specific commit use
 *git show commitId (sha1 id)
 
+48) push changes with tracking relationships so that dont have to mention origin name every time
+*git push -u origin master (-u parameter is for tracking relation between local and remote branch. with the help of -u parameter dont have to specify brach name it will automatically update correspondent branch)
+
 
 
 
