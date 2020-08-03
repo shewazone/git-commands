@@ -150,6 +150,9 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 46) check remote info fetch/push url, braches, head etc
 *git remote show origin
 
+47) to check specific commit use
+*git show commitId (sha1 id)
+
 
 
 
