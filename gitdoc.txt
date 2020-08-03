@@ -134,6 +134,9 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 41) check remote origin url
 *git remove -v
 
+42) clone repo from remote source
+*git clone remoteURL (if want to clone into a specific folder the use git clone remoteURL folderName)
+
 
 
 
