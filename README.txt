@@ -1,3 +1,3 @@
 Read gitdoc.txt file
-edit readme on example branch
+changes before rebase
 >>>>>> the end <<<<<<<
