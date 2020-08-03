@@ -162,7 +162,8 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 50) after delete branch from remote and local, in local there may contain branch reference to remove it use below command
 *git fetch -p (-p parameter to prone dead branches. it will remove dead branches)
 
-
+51) get newly created branch from remote to local 
+*git fetch (git branch -a to check available branches and check out to swtich)
 
 
 
