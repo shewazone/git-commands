@@ -134,6 +134,9 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 41) check remote origin url
 *git remove -v
 
+43) git fetch vs pull
+*git fetch (this command will fetch from remote and dont merge automatically. shows the difference between local and remote repo.)
+*git pull (this command will fetch and automatically merge local with remote)
 
 
 
