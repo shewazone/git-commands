@@ -131,14 +131,20 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 40) after resetting log will be reduce and to check out all logs that was happened on a branch hit below command
 *git reflog 
 
-41) check remote origin url
-*git remove -v
+41) integrate remote project with local
+*git remote add url remoteUrl
 
-42) git fetch vs pull
+42) to update remote url
+*git remote set-url origin originURL
+
+43) check remote origin url
+*git remote -v
+
+44) git fetch vs pull
 *git fetch (this command will fetch from remote and dont merge automatically. shows the difference between local and remote repo.)
 *git pull (this command will fetch and automatically merge local with remote)
 
-43) clone repo from remote source
+45) clone repo from remote source
 *git clone remoteURL (if want to clone into a specific folder the use git clone remoteURL folderName)
 
 
