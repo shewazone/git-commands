@@ -168,6 +168,9 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 52) to update current branch with remote, head to that branch and hit below command
 *git pull (git pull --all this command will update current as well as all other branches by their correspondant branch)
 
+53) delete remote branch from local
+*git push origin:branchName (this command will delete remote branch)
+
 
 
 
