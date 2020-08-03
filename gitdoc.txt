@@ -165,6 +165,9 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 51) get newly created branch from remote to local 
 *git fetch (git branch -a to check available branches and check out to swtich)
 
+52) to update current branch with remote, head to that branch and hit below command
+*git pull (git pull --all this command will update current as well as all other branches by their correspondant branch)
+
 
 
 
