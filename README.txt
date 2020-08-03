@@ -1,3 +1,3 @@
 Read gitdoc.txt file
-changes before rebase
+some test text for conflict remote and local
 >>>>>> the end <<<<<<<
