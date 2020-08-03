@@ -1,3 +1,3 @@
 Read gitdoc.txt file
-some text
+some text from bad branch
 >>>>>> the end <<<<<<<
