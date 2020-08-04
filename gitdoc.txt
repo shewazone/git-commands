@@ -189,7 +189,13 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 *git tag -f tagName commitId (just if want to change commit pointing)
 
 59) update remote tag pointing from local
-*git push --force origin tagName (if just use git push origin tagName then it may not update and will show tag exits . --force parameter will forcefully update tag with assiciated git commit) 
+*git push --force origin tagName (if just use git push origin tagName then it may not update and will show tag exits . --force parameter will forcefully update tag with assiciated git commit)
+
+****
+we can compare between tags,branch,commit and even with dates. ex:branch vs branch,branch vs tag, tag vs commit
+branch@{2days} vs branch/tag/commit
+branch@{2020-03-01} vs branch/tag/commit
+***
 
 
 
