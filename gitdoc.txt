@@ -185,6 +185,12 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 57) delete remote tag from local
 *git push origin :tagName
 
+58) update tag with pointing different commit id
+*git tag -f tagName commitId (just if want to change commit pointing)
+
+59) update remote tag pointing from local
+*git push --force origin tagName (if just use git push origin tagName then it may not update and will show tag exits . --force parameter will forcefully update tag with assiciated git commit) 
+
 
 
 
