@@ -176,9 +176,14 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 
 ****instead of making master as default branch set develop****
 
+55) push local tags to remote 
+*git push origin tagName
 
+56) push all tags from local to remote
+*git push --tags
 
-
+57) delete remote tag from local
+*git push origin :tagName
 
 
 
