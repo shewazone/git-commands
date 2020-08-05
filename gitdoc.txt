@@ -197,7 +197,8 @@ branch@{2days} vs branch/tag/commit
 branch@{2020-03-01} vs branch/tag/commit
 ***
 
-
+60) git checkout branchName may not work create & switch to a branch in case of organization branch. to fix this use below command
+*git checkout -b origin/branchName
 
 
 
