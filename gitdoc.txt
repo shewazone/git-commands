@@ -136,6 +136,7 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 
 42) to update remote url
 *git remote set-url origin originURL
+## git --set-upstream origin master (to set upstream sync local with remote)
 
 43) check remote origin url
 *git remote -v
