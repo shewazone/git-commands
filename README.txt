@@ -1,3 +1,3 @@
-Read gitdoc.txt file for clear information
+Read gitdoc.txt file
 
 >>>>>> the end <<<<<<<
