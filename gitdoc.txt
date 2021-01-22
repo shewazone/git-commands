@@ -207,6 +207,9 @@ branch@{2020-03-01} vs branch/tag/commit
 61) Remove specific commit 
 * git revert --strategy resolve <commitId>
 
+62) To check available branches that is pointed to remote branch. For ex: you have cloned a repo and when you hit git branch it is only showing master but in the remote there are some others branches available, in that case if you want to check all remote branch is is in your local cloned repo hit below command
+* git branch -r
+
 
 
 
