@@ -136,6 +136,7 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 
 42) to update remote url
 *git remote set-url origin originURL
+## git --set-upstream origin master (to set upstream sync local with remote)
 
 43) check remote origin url
 *git remote -v
@@ -155,6 +156,9 @@ git hist -- filename (here hist is an alias and specify file name to check that 
 
 48) push changes with tracking relationships so that dont have to mention origin name every time
 *git push -u origin master (-u parameter is for tracking relation between local and remote branch. with the help of -u parameter dont have to specify brach name it will automatically update correspondent branch)
+
+### git push from local to remote on a specific branch
+git push origin localBranchName : remoteBranchName
 
 49) check git reference branch
 *git branch -a
@@ -199,6 +203,17 @@ branch@{2020-03-01} vs branch/tag/commit
 
 60) git checkout branchName may not work create & switch to a branch in case of organization branch. to fix this use below command
 *git checkout -b origin/branchName
+
+61) Remove specific commit 
+* git revert --strategy resolve <commitId>
+
+62) To check available branches that is pointed to remote branch. For ex: you have cloned a repo and when you hit git branch it is only showing master but in the remote there are some others branches available, in that case if you want to check all remote branch is is in your local cloned repo hit below command
+* git branch -r
+
+63) Undo a single commit. First check commits by using below command:
+* git log --oneline (oneline is for showing in one line and get commit id from here then hit below command)
+* git revert commitId
+
 
 
 
