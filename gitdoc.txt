@@ -214,7 +214,7 @@ branch@{2020-03-01} vs branch/tag/commit
 * git log --oneline (oneline is for showing in one line and get commit id from here then hit below command)
 * git revert commitId
 
-
+some junk text
 
 
 
